@@ -60,16 +60,16 @@ namespace DesignPatterns.Behavioral.StrategyPattern
 
     public class StrategyPattern
     {
-        public static void Main()
-        {
-            PaymentService paymentService = new PaymentService(new CreditCardPayment());
-            paymentService.ProcessPayment(100);
-            paymentService = new PaymentService(new PayPalPayment());
-            paymentService.ProcessPayment(200);
-            paymentService = new PaymentService(new DebitCardPayment());
-            paymentService.ProcessPayment(300);
-            paymentService = new PaymentService(new UpiPayment());
-            paymentService.ProcessPayment(400);
-        }
+        //public static void Main()
+        //{
+        //    PaymentService paymentService = new PaymentService(new CreditCardPayment());
+        //    paymentService.ProcessPayment(100);
+        //    paymentService = new PaymentService(new PayPalPayment());
+        //    paymentService.ProcessPayment(200);
+        //    paymentService = new PaymentService(new DebitCardPayment());
+        //    paymentService.ProcessPayment(300);
+        //    paymentService = new PaymentService(new UpiPayment());
+        //    paymentService.ProcessPayment(400);
+        //}
     }
 }

@@ -1,1 +1,1 @@
-# DesignPatternLearning
+# Behavioral Design Patterns
